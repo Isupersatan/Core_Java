@@ -40,7 +40,7 @@ public class highestArmStrong {
 		 for(int i=r;i>=1;i--) 
 			 if(isArmStrong(i)) {
 				 count++;
-				 if(count==1)	System.out.println(i);
+				 if(count==1)	System.out.println(i+" ");
 				 break;
 			 }
 		 

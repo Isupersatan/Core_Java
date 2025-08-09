@@ -10,7 +10,7 @@ public class HoloDiamond {
 		
 		for(int i=1;i<=n;i++) {
 			
-			for(int j=1;j<=space;j++)	System.out.print("X");
+			for(int j=1;j<=space;j++)	System.out.print(" ");
 			for(int j=1;j<=star;j++) {
 				if(j==1 || j==star) {
 					System.out.print("X");
@@ -19,7 +19,7 @@ public class HoloDiamond {
 				}
 			}
 				
-			for(int j=1;j<=space;j++)	System.out.print("X");
+			//for(int j=1;j<=space;j++)	System.out.print("X");
 			
 			System.out.println();
 			if(i<=n/2) {
