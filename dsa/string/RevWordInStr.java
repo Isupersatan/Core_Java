@@ -50,7 +50,7 @@ public class RevWordInStr {
 		System.out.println("Enter a String");
 		String str = sc.nextLine();
 		
-		System.out.println(revWords2(str));
+		System.out.println(revWords(str));
 		
 		sc.close();
 	}
