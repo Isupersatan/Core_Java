@@ -2,7 +2,7 @@ package dsa.string;
 
 import java.util.Scanner;
 
-public class SumNuminStr {
+public class SumOfNuminStr {
 	
 	static int sumOfNum(String s) {
 		char [] a = s.toCharArray();

@@ -6,20 +6,20 @@ public class RemoveExtraSpace {
 	
 	static String remove(String s) {
 		
-		StringBuilder sb = new StringBuilder();
+		String s1="";
 		boolean space = false;
 		
 		for(int i=0;i<s.length();i++) {
 			char c = s.charAt(i);
 			if(c!=' ') {
-				sb.append(c);
+				s1+=c;
 				space = false;
 			}else if(!space){
-				sb.append(' ');
+				s1+=' ';
 				space = true;
 			}
 		}
-		return sb.toString().trim();
+		return s1.trim();
 	}
 	
 	public static void main(String[] args) {

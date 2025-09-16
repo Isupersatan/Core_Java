@@ -23,9 +23,15 @@ public class MethodRecusion {
 	
 	public static void main(String[] args) {
 		 Scanner sc = new Scanner(System.in);
-		 System.out.print("Enter a Num: ");
-		 int num = sc.nextInt();
-		 System.out.println(num+" is a ArmStrong num ? :"+isArmStrong(num,num,0,count(num)));
+		 System.out.print("Enter a range: ");
+		 int r = sc.nextInt();
+		 
+		 for(int i=r;i>=100;i--) 
+			 if(isArmStrong(i,i,0,count(i))) {
+				 System.out.println(i+" ");
+
+			 }
+		 
 		 sc.close();
 	}
 }
